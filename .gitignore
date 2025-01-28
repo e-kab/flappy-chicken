@@ -1,0 +1,36 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Avoid uploading crash reports, etc.
+[Cc]rash/
+[Dd]ebugReports/
+
+# Ignore Auto-generated files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# TextMesh Pro generated files
+[Tt]extMeshPro/
+
+# ScriptableObject temporary cache
+*.asset
+*.asset.meta
+
+# Other Unity generated files
+.vs/
