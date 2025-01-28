@@ -515,10 +515,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstaclePrefabDown: {fileID: 5322254227558487247, guid: efe95e5f461c83e4aa611cd42b7268a1, type: 3}
   obstaclePrefabUp: {fileID: 55638979200352684, guid: 7b632e0517d763d4bbc6cad8fba002a5, type: 3}
-  distanceMin: 4.5
-  distanceMax: 6
+  distanceMin: 5
+  distanceMax: 7
   spawnTimer: 2
-  movementSpeed: 1
+  movementSpeed: 1.5
 --- !u!1 &1561453896
 GameObject:
   m_ObjectHideFlags: 0
@@ -622,7 +622,7 @@ GameObject:
   - component: {fileID: 1739960840}
   m_Layer: 0
   m_Name: Chicken
-  m_TagString: Untagged
+  m_TagString: Chicken
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
