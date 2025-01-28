@@ -691,7 +691,7 @@ Transform:
   m_GameObject: {fileID: 1739960833}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.59, y: -2.4, z: 0}
+  m_LocalPosition: {x: -7.59, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -709,8 +709,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5de628c239b053a45a04fe9f224d0500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2.5
-  flapForce: 5
+  speed: 3.5
+  flapForce: 8.5
   spriteUp: {fileID: 4594587340421615849, guid: 24cfe65169461a84fb8118ccb0fa72e9, type: 3}
   spriteDown: {fileID: -969034501029599569, guid: 5bde33f60fc702c4f9152f17f1c9ea59, type: 3}
   spriteCollision: {fileID: -4030037722528024345, guid: 9579f714a5c7719418aa967c150eb8be, type: 3}
@@ -735,7 +735,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 2.5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
