@@ -36,6 +36,15 @@ public class ObstacleSpawner : MonoBehaviour
         // Add the movement script to each obstacle
         obstacleDown.AddComponent<ObstacleMovement>().Initialize(movementSpeed, spawnPositionDown, chickenTransform);
         obstacleUp.AddComponent<ObstacleMovement>().Initialize(movementSpeed, spawnPositionUp, chickenTransform);
+
+        // Create a scoring trigger
+        GameObject scoringZone = new GameObject("ScoringZone");
+        scoringZone.transform.position = new Vector3(transform.position.x, (spawnPositionDown.y + spawnPositionUp.y) / 2, transform.position.z);
+        scoringZone.AddComponent<BoxCollider2D>().isTrigger = true;
+        BoxCollider2D collider = scoringZone.GetComponent<BoxCollider2D>();
+        collider.size = new Vector2(1f, Mathf.Abs(spawnPositionDown.y - spawnPositionUp.y)); // Match gap size
+
+        scoringZone.AddComponent<ScoringTrigger>(); // Attach scoring script
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
