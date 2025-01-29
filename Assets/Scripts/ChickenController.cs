@@ -19,7 +19,7 @@ public class ChickenController : MonoBehaviour
     private AudioSource _chickenAudioSource;
     private SpriteRenderer _chickenSpriteRenderer;
 
-    private bool dead = false;
+    public bool dead = false;
 
 
     public AudioClip[] chickenSounds = new AudioClip[5];
