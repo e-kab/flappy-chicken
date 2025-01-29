@@ -506,7 +506,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 450}
-  m_SizeDelta: {x: 160.89, y: 30}
+  m_SizeDelta: {x: 400, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1018596704
 MonoBehaviour:
@@ -533,7 +533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.77156556, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -542,7 +542,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 0
+    m_FontSize: 100
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -909,6 +909,7 @@ MonoBehaviour:
   spriteUp: {fileID: 4594587340421615849, guid: 24cfe65169461a84fb8118ccb0fa72e9, type: 3}
   spriteDown: {fileID: -969034501029599569, guid: 5bde33f60fc702c4f9152f17f1c9ea59, type: 3}
   spriteCollision: {fileID: -4030037722528024345, guid: 9579f714a5c7719418aa967c150eb8be, type: 3}
+  dead: 0
   chickenSounds:
   - {fileID: 8300000, guid: 00f83acd53d46514f8cd79a8a414ce0d, type: 3}
   - {fileID: 8300000, guid: e6d0efa0f3a19304da500158f8cee6fa, type: 3}
